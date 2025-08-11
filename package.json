@@ -6,7 +6,7 @@
   "homepage": "https://mirjalolbekqosimov778.github.io/mio-beauty-ui-library",
   "scripts": {
     "build-storybook": "build-storybook -o storybook-static",
-    "deploy-storybook": "npm run build-storybook && gh-pages -d storybook-static",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
