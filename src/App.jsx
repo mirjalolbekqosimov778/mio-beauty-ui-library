@@ -1,13 +1,22 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import { Button } from './stories/Button';
 
 function App() {
-
   return (
     <>
-      Hi
+      <Button
+        primary
+        label="+ Button text +"
+        type={'Negative'}
+
+      // onClick={() => alert('Primary clicked!')}
+      />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
+
+// @use "../../styles/variables" as *;
+// @use "../../styles/mixins-font" as *;
