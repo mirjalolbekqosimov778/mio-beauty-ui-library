@@ -1,0 +1,472 @@
+{
+  "Headings": {
+    "H1": {
+      "Bold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.12 (72)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Bold}",
+          "type": "number"
+        }
+      },
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.12 (72)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      }
+    },
+    "H2": {
+      "Bold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.11 (48)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Bold}",
+          "type": "number"
+        }
+      },
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.11 (48)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      }
+    },
+    "H3": {
+      "Bold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.10 (32)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Bold}",
+          "type": "number"
+        }
+      },
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.10 (32)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      }
+    },
+    "H4": {
+      "Bold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.9 (28)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Bold}",
+          "type": "number"
+        }
+      },
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.9 (28)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      }
+    },
+    "H5": {
+      "Bold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.8 (24)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Bold}",
+          "type": "number"
+        }
+      },
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Heading}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.8 (24)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      }
+    }
+  },
+  "Titles": {
+    "Title": {
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.7 (20)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      },
+      "Medium": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.7 (20)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Medium}",
+          "type": "number"
+        }
+      },
+      "Regular": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.7 (20)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Regular}",
+          "type": "number"
+        }
+      }
+    }
+  },
+  "Body": {
+    "Body 1": {
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.6 (18)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      },
+      "Medium": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.6 (18)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Medium}",
+          "type": "number"
+        }
+      },
+      "Regular": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.6 (18)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Regular}",
+          "type": "number"
+        }
+      }
+    },
+    "Body 2": {
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.5 (16)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      },
+      "Medium": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.5 (16)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Medium}",
+          "type": "number"
+        }
+      },
+      "Regular": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.5 (16)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Regular}",
+          "type": "number"
+        }
+      }
+    },
+    "Body 3": {
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.4 (15)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      },
+      "Medium": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.4 (15)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Medium}",
+          "type": "number"
+        }
+      },
+      "Regular": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.4 (15)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Regular}",
+          "type": "number"
+        }
+      }
+    }
+  },
+  "Subhead": {
+    "Subhead": {
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.3 (14)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      },
+      "Medium": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.3 (14)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Medium}",
+          "type": "number"
+        }
+      },
+      "Regular": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.3 (14)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Regular}",
+          "type": "number"
+        }
+      }
+    }
+  },
+  "Footnote": {
+    "Footnote": {
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.2 (13)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      },
+      "Medium": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.2 (13)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Medium}",
+          "type": "number"
+        }
+      },
+      "Regular": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.2 (13)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Regular}",
+          "type": "number"
+        }
+      }
+    }
+  },
+  "Caption": {
+    "Caption": {
+      "SemiBold": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.1 (12)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Semibold}",
+          "type": "number"
+        }
+      },
+      "Medium": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.1 (12)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Medium}",
+          "type": "number"
+        }
+      },
+      "Regular": {
+        "Family": {
+          "value": "{Family.Family Main}",
+          "type": "text"
+        },
+        "Size": {
+          "value": "{Family.Font Size.1 (12)}",
+          "type": "number"
+        },
+        "Weight": {
+          "value": "{Family.Font Weight.Regular}",
+          "type": "number"
+        }
+      }
+    }
+  }
+}

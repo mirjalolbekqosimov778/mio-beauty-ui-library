@@ -1,0 +1,188 @@
+@use './type-primitives.scss' as *;
+
+@mixin type-H1-Bold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-bold;
+}
+
+@mixin type-H1-SemiBold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-H2-Bold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-bold;
+}
+
+@mixin type-H2-SemiBold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-H3-Bold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-bold;
+}
+
+@mixin type-H3-SemiBold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-H4-Bold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-9;
+  font-weight: $type-font-weight-bold;
+}
+
+@mixin type-H4-SemiBold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-9;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-H5-Bold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-8;
+  font-weight: $type-font-weight-bold;
+}
+
+@mixin type-H5-SemiBold {
+  font-family: $type-family-family-heading;
+  font-size: $type-font-size-8;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-Title-SemiBold {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-7;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-Title-Medium {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-7;
+  font-weight: $type-font-weight-medium;
+}
+
+@mixin type-Title-Regular {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-7;
+  font-weight: $type-font-weight-regular;
+}
+
+@mixin type-Body1-SemiBold {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-6;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-Body1-Medium {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-6;
+  font-weight: $type-font-weight-medium;
+}
+
+@mixin type-Body1-Regular {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-6;
+  font-weight: $type-font-weight-regular;
+}
+
+@mixin type-Body2-SemiBold {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-5;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-Body2-Medium {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-5;
+  font-weight: $type-font-weight-medium;
+}
+
+@mixin type-Body2-Regular {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-5;
+  font-weight: $type-font-weight-regular;
+}
+
+@mixin type-Body3-SemiBold {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-4;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-Body3-Medium {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-4;
+  font-weight: $type-font-weight-medium;
+}
+
+@mixin type-Body3-Regular {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-4;
+  font-weight: $type-font-weight-regular;
+}
+
+@mixin type-Subhead-SemiBold {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-3;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-Subhead-Medium {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-3;
+  font-weight: $type-font-weight-medium;
+}
+
+@mixin type-Subhead-Regular {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-3;
+  font-weight: $type-font-weight-regular;
+}
+
+@mixin type-Footnote-SemiBold {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-2;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-Footnote-Medium {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-2;
+  font-weight: $type-font-weight-medium;
+}
+
+@mixin type-Footnote-Regular {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-2;
+  font-weight: $type-font-weight-regular;
+}
+
+@mixin type-Caption-SemiBold {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-semibold;
+}
+
+@mixin type-Caption-Medium {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-medium;
+}
+
+@mixin type-Caption-Regular {
+  font-family: $type-family-family-main;
+  font-size: $type-font-size-1;
+  font-weight: $type-font-weight-regular;
+}
+

@@ -1,0 +1,169 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/type-primitives" as *;
+@use "../../../styles/mixins-font" as *;
+@use "../../../styles/tokens" as *;
+
+
+
+.storybook-button--negative {
+  &.storybook-button--primary {
+    background-color: $colors-button-negative-primary-active-value;
+    color: $white;
+
+
+    &:hover {
+      background-color: $colors-button-negative-primary-onhover-value;
+    }
+
+    &:active {
+      background-color: $colors-button-negative-primary-onpress-value;
+    }
+  }
+
+
+  &.storybook-button--secondary {
+    background-color: $colors-button-negative-secondary-active-value ;
+    color: $colorbase-red-red-7-value;
+
+    &:hover {
+      background-color: $colors-button-negative-secondary-onhover-value;
+    }
+
+    &:active {
+      background-color: $colors-button-negative-secondary-onpress-value;
+    }
+  }
+}
+
+.storybook-button--positive {
+  &.storybook-button--primary {
+    background-color: $colors-button-positive-primary-active-value;
+    color: $white;
+
+    &:hover {
+      background-color: $colors-button-positive-primary-onhover-value;
+    }
+
+    &:active {
+      background-color: $colors-button-positive-primary-onpress-value;
+    }
+  }
+
+
+  &.storybook-button--secondary {
+    background-color: $colors-button-positive-secondary-active-value ;
+    color: $colorbase-green-green-7-value;
+
+    &:hover {
+      background-color: $colors-button-positive-secondary-onhover-value;
+    }
+
+    &:active {
+      background-color: $colors-button-positive-secondary-onpress-value;
+    }
+  }
+}
+
+.storybook-button--neutral {
+  &.storybook-button--primary {
+    background-color: $colors-button-neutral-primary-active-value;
+    color: $white;
+
+    &:hover {
+      background-color: $colors-button-neutral-primary-onhover-value;
+    }
+
+    &:active {
+      background-color: $colors-button-neutral-primary-onpress-value;
+    }
+  }
+
+
+  &.storybook-button--secondary {
+    background-color: $colors-button-neutral-secondary-active-value ;
+    color: $colorbase-gray-gray-19-value;
+
+    &:hover {
+      background-color: $colors-button-neutral-secondary-onhover-value;
+    }
+
+    &:active {
+      background-color: $colors-button-neutral-secondary-onpress-value;
+    }
+  }
+}
+
+.storybook-button--accent {
+
+  &.storybook-button--primary {
+    background-color: $colors-button-themed-primary-active-value;
+    color: $white;
+
+    &:hover {
+      background-color: $colors-button-themed-primary-onhover-value;
+    }
+
+    &:active {
+      background-color: $colors-button-themed-primary-onpress-value;
+    }
+  }
+
+
+  &.storybook-button--secondary {
+    background-color: $colors-button-themed-secondary-active-value ;
+    color: $colorbase-purple-purple-7-value;
+
+    &:hover {
+      background-color: $colors-button-themed-secondary-onhover-value;
+    }
+
+    &:active {
+      background-color: $colors-button-themed-secondary-onpress-value;
+    }
+  }
+}
+
+// .storybook-button--disabled {
+//   background-color: $colors-button-accent-disabled-active-value;
+//   color: $white;
+//   &:hover {
+//     background-color: $colors-button-accent-disabled-onhover-value;
+//   }
+//   &:active {
+//     background-color: $colors-button-accent-disabled-onpress-value;
+//   }
+// }
+
+
+
+
+
+.storybook-button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  transition: $smooth ;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.storybook-button--small {
+  padding: 8px 12px;
+  gap: 2px;
+  @include type-Subhead-SemiBold;
+}
+
+.storybook-button--medium {
+  padding: 10px 12px;
+  gap: 4px;
+  @include type-Body2-SemiBold;
+}
+
+.storybook-button--large {
+  padding: 12px 16px;
+  gap: 4px;
+  @include type-Body2-SemiBold;
+}

@@ -1,13 +1,16 @@
 import React from 'react';
-import { Button } from './stories/Button';
+import { Button } from './stories/Components/NegativeButton/Button.jsx';
+
+import "./styles/global.scss";
+
 
 function App() {
   return (
     <>
       <Button
         primary
-        label="+ Button text +"
-        type={'Negative'}
+        label="Button text"
+        tone='negative'
 
       // onClick={() => alert('Primary clicked!')}
       />
@@ -16,7 +19,3 @@ function App() {
 }
 
 export default App;
-
-
-// @use "../../styles/variables" as *;
-// @use "../../styles/mixins-font" as *;
