@@ -100,6 +100,9 @@
   font-family: $type-family-family-main;
   font-size: $type-font-size-5;
   font-weight: $type-font-weight-semibold;
+
+  // this is test 
+  line-height: 20px;
 }
 
 @mixin type-Body2-Medium {
@@ -185,4 +188,3 @@
   font-size: $type-font-size-1;
   font-weight: $type-font-weight-regular;
 }
-
