@@ -790,7 +790,7 @@
             "type": "color"
           },
           "OnHover": {
-            "value": "{ColorBase.Red.Red 5}",
+            "value": "{ColorBase.Red.Red 6}",
             "type": "color"
           },
           "OnPress": {
@@ -888,7 +888,7 @@
             "type": "color"
           },
           "OnHover": {
-            "value": "{ColorBase.Gray.Gray 17}",
+            "value": "{ColorBase.Gray.Gray 16}",
             "type": "color"
           },
           "OnPress": {
@@ -902,11 +902,11 @@
             "type": "color"
           },
           "OnHover": {
-            "value": "{ColorBase.Gray.Gray 3}",
+            "value": "{ColorBase.Gray.Gray 5}",
             "type": "color"
           },
           "OnPress": {
-            "value": "{ColorBase.Gray.Gray 5}",
+            "value": "{ColorBase.Gray.Gray 6}",
             "type": "color"
           }
         },
@@ -946,7 +946,7 @@
             "type": "color"
           },
           "OnHover": {
-            "value": "{ColorBase.Purple.Purple 5}",
+            "value": "{ColorBase.Purple.Purple 6}",
             "type": "color"
           },
           "OnPress": {

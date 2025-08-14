@@ -9,10 +9,12 @@ export const Button = ({
   size = 'medium',
   tone = 'neutral',
   type = 'flled',
+  disabled = false,
   label,
   ...props
 }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  const disabledMode = disabled ? 'storybook-button--disabled' : '';
   return (
     <button
       className={[
@@ -20,9 +22,10 @@ export const Button = ({
         `storybook-button--${tone}`,
         `storybook-button--${type}`,
         `storybook-button--${size}`,
-        mode
+        mode, disabledMode
       ].join(' ')}
       {...props}
+      disabled={disabled}
     >
       {label}
     </button>
@@ -31,9 +34,10 @@ export const Button = ({
 
 Button.propTypes = {
   primary: PropTypes.bool,
+  disabled: PropTypes.bool,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   label: PropTypes.string,
   onClick: PropTypes.func,
-  tone: PropTypes.oneOf(['negative', 'positive', 'neutral', 'accent', 'disabled']),
-  type: PropTypes.oneOf(['flled', 'outlined', 'ghost']),
+  tone: PropTypes.oneOf(['neutral', 'negative', 'positive', 'accent']),
+  type: PropTypes.oneOf(['flled', 'ghost']),
 };

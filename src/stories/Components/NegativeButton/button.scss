@@ -6,20 +6,45 @@
 
 
 .storybook-button--negative {
-  &.storybook-button--primary {
-    background-color: $colors-button-negative-primary-active-value;
-    color: $white;
+  &.storybook-button--flled {
+    &.storybook-button--primary {
+      background-color: $colors-button-negative-primary-active-value;
+      color: $white;
 
+      &:hover {
+        background-color: $colors-button-negative-primary-onhover-value;
+      }
 
-    &:hover {
-      background-color: $colors-button-negative-primary-onhover-value;
-    }
-
-    &:active {
-      background-color: $colors-button-negative-primary-onpress-value;
+      &:active {
+        background-color: $colors-button-negative-primary-onpress-value;
+      }
     }
   }
 
+  //  &.storybook-button--outlined {
+  //   &.storybook-button--primary {
+  //     &:hover {
+  //     }
+  //     &:active {
+  //     }
+  //   }
+  // }
+
+  &.storybook-button--ghost {
+    &.storybook-button--primary {
+      background-color: initial;
+      color: $colors-texticons-negative-value;
+
+      &:hover {
+        background-color: $colors-button-negative-ghost-onhover-value;
+
+      }
+
+      &:active {
+        background-color: $colors-button-negative-ghost-onpress-value;
+      }
+    }
+  }
 
   &.storybook-button--secondary {
     background-color: $colors-button-negative-secondary-active-value ;
@@ -36,19 +61,36 @@
 }
 
 .storybook-button--positive {
-  &.storybook-button--primary {
-    background-color: $colors-button-positive-primary-active-value;
-    color: $white;
+  &.storybook-button--flled {
+    &.storybook-button--primary {
+      background-color: $colors-button-positive-primary-active-value;
+      color: $white;
 
-    &:hover {
-      background-color: $colors-button-positive-primary-onhover-value;
-    }
+      &:hover {
+        background-color: $colors-button-positive-primary-onhover-value;
+      }
 
-    &:active {
-      background-color: $colors-button-positive-primary-onpress-value;
+      &:active {
+        background-color: $colors-button-positive-primary-onpress-value;
+      }
     }
   }
 
+  &.storybook-button--ghost {
+    &.storybook-button--primary {
+      background-color: initial;
+      color: $colors-texticons-positive-value;
+
+      &:hover {
+        background-color: $colors-button-positive-ghost-onhover-value;
+
+      }
+
+      &:active {
+        background-color: $colors-button-positive-ghost-onpress-value;
+      }
+    }
+  }
 
   &.storybook-button--secondary {
     background-color: $colors-button-positive-secondary-active-value ;
@@ -65,19 +107,37 @@
 }
 
 .storybook-button--neutral {
-  &.storybook-button--primary {
-    background-color: $colors-button-neutral-primary-active-value;
-    color: $white;
+  &.storybook-button--flled {
 
-    &:hover {
-      background-color: $colors-button-neutral-primary-onhover-value;
-    }
+    &.storybook-button--primary {
+      background-color: $colors-button-neutral-primary-active-value;
+      color: $white;
 
-    &:active {
-      background-color: $colors-button-neutral-primary-onpress-value;
+      &:hover {
+        background-color: $colors-button-neutral-primary-onhover-value;
+      }
+
+      &:active {
+        background-color: $colors-button-neutral-primary-onpress-value;
+      }
     }
   }
 
+  &.storybook-button--ghost {
+    &.storybook-button--primary {
+      background-color: initial;
+      color: $colors-texticons-primary-value;
+
+      &:hover {
+        background-color: $colors-button-neutral-ghost-onhover-value;
+
+      }
+
+      &:active {
+        background-color: $colors-button-neutral-ghost-onpress-value;
+      }
+    }
+  }
 
   &.storybook-button--secondary {
     background-color: $colors-button-neutral-secondary-active-value ;
@@ -94,17 +154,35 @@
 }
 
 .storybook-button--accent {
+  &.storybook-button--flled {
+    &.storybook-button--primary {
+      background-color: $colors-button-themed-primary-active-value;
+      color: $white;
 
-  &.storybook-button--primary {
-    background-color: $colors-button-themed-primary-active-value;
-    color: $white;
+      &:hover {
+        background-color: $colors-button-themed-primary-onhover-value;
+      }
 
-    &:hover {
-      background-color: $colors-button-themed-primary-onhover-value;
+      &:active {
+        background-color: $colors-button-themed-primary-onpress-value;
+      }
     }
+  }
 
-    &:active {
-      background-color: $colors-button-themed-primary-onpress-value;
+
+  &.storybook-button--ghost {
+    &.storybook-button--primary {
+      background-color: initial;
+      color: $colors-texticons-accent-value;
+
+      &:hover {
+        background-color: $colors-button-accent-ghost-onhover-value;
+
+      }
+
+      &:active {
+        background-color: $colors-button-accent-ghost-onpress-value;
+      }
     }
   }
 
@@ -123,20 +201,23 @@
   }
 }
 
-// .storybook-button--disabled {
-//   background-color: $colors-button-accent-disabled-active-value;
-//   color: $white;
-//   &:hover {
-//     background-color: $colors-button-accent-disabled-onhover-value;
-//   }
-//   &:active {
-//     background-color: $colors-button-accent-disabled-onpress-value;
-//   }
-// }
 
+.storybook-button--disabled {
+  cursor: auto !important;
 
+  &.storybook-button--primary,
+  &.storybook-button--secondary {
+    &.storybook-button--flled {
+      background-color: $colors-button-disabled-primarysecondary-value !important;
+      color: $colors-texticons-tertiary-value !important;
+    }
 
-
+    &.storybook-button--ghost {
+      background-color: initial !important;
+      color: $colors-texticons-tertiary-value !important;
+    }
+  }
+}
 
 .storybook-button {
   cursor: pointer;
@@ -146,8 +227,6 @@
   display: flex;
   align-items: center;
 }
-
-
 
 
 .storybook-button--small {

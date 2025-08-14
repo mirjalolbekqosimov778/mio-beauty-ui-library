@@ -11,7 +11,7 @@ function App() {
         primary
         label="Button text"
         tone='negative'
-
+        disabled
       // onClick={() => alert('Primary clicked!')}
       />
     </>
