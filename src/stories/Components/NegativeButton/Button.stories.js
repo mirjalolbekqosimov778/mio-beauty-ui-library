@@ -26,6 +26,6 @@ export const button = {
     disabled: false,
     tone: 'neutral',
     type: "flled",
-    size: 'medium'
+    size: 'medium',
   },
 };

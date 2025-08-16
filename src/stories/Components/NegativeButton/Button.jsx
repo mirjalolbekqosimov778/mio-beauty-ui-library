@@ -1,14 +1,15 @@
 import React from 'react';
-
 import PropTypes from 'prop-types';
-
 import './button.scss';
+import PlusIcon from "../../assets/icons/ic_add_outlined.svg?react";
 
 export const Button = ({
   primary = true,
   size = 'medium',
   tone = 'neutral',
   type = 'flled',
+  leftIcon = true,
+  rightIcon = true,
   disabled = false,
   label,
   ...props
@@ -27,7 +28,12 @@ export const Button = ({
       {...props}
       disabled={disabled}
     >
+      {leftIcon && <PlusIcon className="input-icon" />}
+
       {label}
+
+      {rightIcon && <PlusIcon className="input-icon" />}
+
     </button>
   );
 };
@@ -37,6 +43,10 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   label: PropTypes.string,
+
+  leftIcon: PropTypes.bool,
+  rightIcon: PropTypes.bool,
+
   onClick: PropTypes.func,
   tone: PropTypes.oneOf(['neutral', 'negative', 'positive', 'accent']),
   type: PropTypes.oneOf(['flled', 'ghost']),
