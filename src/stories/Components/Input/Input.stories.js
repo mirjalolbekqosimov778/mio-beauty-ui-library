@@ -7,11 +7,12 @@ export default {
     layout: 'centered',
   },
   tags: ['autodocs'],
-
 };
 
-export const input = {
+export const Default = {
   args: {
     disabled: false,
   },
 };
+Default.storyName = 'Input';
+
