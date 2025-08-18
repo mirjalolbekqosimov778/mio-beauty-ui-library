@@ -1,8 +1,10 @@
 {
-  "name": "storybook",
+  "name": "mio-beauty-ui-library",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "main": "src/stories/index.js",
+  "module": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
