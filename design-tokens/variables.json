@@ -778,7 +778,7 @@
             "type": "color"
           },
           "OnPress": {
-            "value": "{ColorBase.Gray.Gray 3}",
+            "value": "{ColorBase.Gray.Gray 4}",
             "type": "color"
           }
         }
@@ -822,7 +822,7 @@
             "type": "color"
           },
           "OnPress": {
-            "value": "{ColorBase.Gray.Gray 3}",
+            "value": "{ColorBase.Gray.Gray 4}",
             "type": "color"
           }
         }
@@ -876,7 +876,7 @@
             "type": "color"
           },
           "OnPress": {
-            "value": "{ColorBase.Gray.Gray 3}",
+            "value": "{ColorBase.Gray.Gray 4}",
             "type": "color"
           }
         }
@@ -920,7 +920,7 @@
             "type": "color"
           },
           "OnPress": {
-            "value": "{ColorBase.Gray.Gray 3}",
+            "value": "{ColorBase.Gray.Gray 4}",
             "type": "color"
           }
         },
@@ -978,7 +978,7 @@
             "type": "color"
           },
           "OnPress": {
-            "value": "{ColorBase.Gray.Gray 3}",
+            "value": "{ColorBase.Gray.Gray 4}",
             "type": "color"
           }
         }
@@ -1028,7 +1028,7 @@
         }
       }
     },
-    "AccentСolors": {
+    "Accent-colors": {
       "Green": {
         "value": "{ColorBase.Green.Green 7}",
         "type": "color"
