@@ -1,6 +1,7 @@
 /** @type { import('@storybook/react-vite').Preview } */
 const preview = {
   parameters: {
+    actions: { disable: true },
     viewport: {
       disable: true,
     },
@@ -11,12 +12,7 @@ const preview = {
       },
     },
 
-    a11y: {
-      // 'todo' - show a11y violations in the test UI only
-      // 'error' - fail CI on a11y violations
-      // 'off' - skip a11y checks entirely
-      test: "todo"
-    }
+    a11y: { disable: true },
   },
 };
 

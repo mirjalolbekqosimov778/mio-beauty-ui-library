@@ -18,8 +18,9 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
   stories: [
-    "../src/**/*.stories.@(js|jsx|ts|tsx|mjs)" // Story fayllaringiz joylashgan yo‘l
+    "../src/**/*.stories.@(js|jsx|ts|tsx|mjs)"
   ],
+
   addons: [
     "@storybook/addon-docs",
     "@storybook/addon-a11y",
@@ -30,8 +31,8 @@ const config = {
     options: {}
   },
 
+
   async viteFinal(config) {
-    // SVGR pluginini qo‘shamiz
     const svgr = (await import('vite-plugin-svgr')).default;
     config.plugins = config.plugins || [];
     config.plugins.push(svgr());
