@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './button.scss';
-import PlusIcon from "../../assets/icons/ic_add_outlined.svg?react";
+import { Icon } from './../Icons/index'
 
 export const Button = ({
   primary = true,
@@ -28,11 +28,11 @@ export const Button = ({
       {...props}
       disabled={disabled}
     >
-      {leftIcon && <PlusIcon className="input-icon" />}
+      {leftIcon && <Icon color='white' fill='black' name='ic_info_outlined' className="input-icon" />}
 
       {label}
 
-      {rightIcon && <PlusIcon className="input-icon" />}
+      {rightIcon && <Icon color='white' fill='black' name='ic_arrow_down' className="input-icon" />}
 
     </button>
   );
@@ -41,7 +41,7 @@ export const Button = ({
 Button.propTypes = {
   primary: PropTypes.bool,
   disabled: PropTypes.bool,
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  size: PropTypes.oneOf(['extra-small', 'small', 'medium', 'large']),
   label: PropTypes.string,
 
   leftIcon: PropTypes.bool,

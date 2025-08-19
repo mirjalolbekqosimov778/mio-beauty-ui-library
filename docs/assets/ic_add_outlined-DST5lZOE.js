@@ -1,1 +1,0 @@
-import{r as t}from"./iframe-BSgTvKBc.js";const o=e=>t.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"currentColor",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("path",{d:"M12 3.60001V20.4M20.4 12H3.6",stroke:"currentColor",strokeWidth:1.5,strokeLinecap:"round",strokeLinejoin:"round"}));export{o as S};

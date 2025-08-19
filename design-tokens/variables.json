@@ -1088,6 +1088,10 @@
       "ReportAccentSecondary": {
         "value": "{ColorBase.Purple.Purple 2}",
         "type": "color"
+      },
+      "DarkGray": {
+        "value": "{ColorBase.Gray.Gray 18}",
+        "type": "color"
       }
     },
     "Border": {

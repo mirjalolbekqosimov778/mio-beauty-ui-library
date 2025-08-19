@@ -228,21 +228,48 @@
   align-items: center;
 }
 
+.storybook-button--extra-small {
+  padding: 4px 6px;
+  gap: 2px;
+  @include type-Subhead-Regular;
+
+  .input-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+
 
 .storybook-button--small {
   padding: 8px 12px;
   gap: 2px;
   @include type-Subhead-SemiBold;
+
+  .input-icon {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .storybook-button--medium {
   padding: 10px 12px;
   gap: 4px;
   @include type-Body2-SemiBold;
+
+  .input-icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 .storybook-button--large {
   padding: 12px 16px;
   gap: 4px;
   @include type-Body2-SemiBold;
+
+  .input-icon {
+    width: 20px;
+    height: 20px;
+  }
 }

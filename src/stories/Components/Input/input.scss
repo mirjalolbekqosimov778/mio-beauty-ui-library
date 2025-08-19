@@ -12,8 +12,8 @@
     border: 1px solid $colors-divider-primary-value;
     outline: none;
     color: $colors-texticons-primary-value ;
-
     transition: $smooth;
+
     @include type-Subhead-Regular;
 
     &.storybook-input--error {
@@ -26,6 +26,56 @@
     }
 }
 
+.storybook-input:hover {
+    background-color: $colors-background-secondary-value;
+}
+
+.storybook-input:focus {
+    border-color: $colors-accent-colors-darkgray-value;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.storybook-input-wrapper {
+    position: relative;
+
+    &.with-left-icon {
+        .storybook-input {
+            padding-left: 44px;
+        }
+    }
+
+    .storybook-input--icon {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 16px;
+        color: $colors-texticons-secondary-value;
+        background-color: white;
+        padding: 7px 3px;
+    }
+
+    .storybook-left-input-icon {
+        position: absolute;
+        top: 50%;
+        left: 1px;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        color: $colors-texticons-primary-value;
+        padding: 0 12px;
+        cursor: pointer;
+    }
+}
+
 
 
 .storybook-input::placeholder {
@@ -33,15 +83,13 @@
     line-height: 20px;
 }
 
-.storybook-input {
-    caret-color: $colors-texticons-accent-value;
-}
-
 .storybook-input-form {
     display: flex;
     gap: 6px;
     flex-direction: column;
 }
+
+
 
 .storybook-input-label {
     @include type-Subhead-Medium
