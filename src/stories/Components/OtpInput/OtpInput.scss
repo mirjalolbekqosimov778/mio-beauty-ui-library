@@ -1,0 +1,54 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/type-primitives" as *;
+@use "../../../styles/mixins-font" as *;
+@use "../../../styles/tokens" as *;
+
+.storybook-otp--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.otp-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.storybook-otp {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: $colors-divider-primary-value;
+    outline: none;
+    transition: $smooth;
+    color: $colors-texticons-primary-value;
+    @include type-Subhead-Regular;
+
+    &.filled {
+        border-color: $colors-divider-primary-value;
+    }
+
+    &:hover {
+        background-color: $colors-background-secondary-value;
+    }
+
+    &:focus {
+        border-color: $colors-button-themed-primary-active-value;
+    }
+
+    &.storybook-otp--error {
+        border-color: $colors-accent-colors-red-value;
+    }
+
+    &.storybook-otp--success {
+        border-color: $colors-texticons-positive-value;
+    }
+}
+
+.storybook-otp-error-notice {
+    @include type-Footnote-Regular;
+    color: $colors-accent-colors-red-value;
+}

@@ -5,7 +5,7 @@ import { ImIcons } from "../../assets/icons";
 export default {
     title: "Example/Icons",
     component: Icon,
-};
+}
 
 export const Default = () => {
     const [copied, setCopied] = useState("");
