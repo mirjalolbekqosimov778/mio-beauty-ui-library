@@ -30,10 +30,9 @@ export const Button = ({
     >
       {leftIcon && <Icon color='white' fill='black' name='ic_info_outlined' className="input-icon" />}
 
-      {label}
+      {label || props.children}
 
       {rightIcon && <Icon color='white' fill='black' name='ic_arrow_down' className="input-icon" />}
-
     </button>
   );
 };

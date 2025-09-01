@@ -15,6 +15,7 @@ export const Default = {
     label: 'Title',
     notice: 'Notice text',
     errorFilled: false,
+    errorText: 'Error text',
     type: 'text',
     placeholder: 'Title',
   },

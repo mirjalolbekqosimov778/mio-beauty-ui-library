@@ -1,0 +1,12 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/type-primitives" as *;
+@use "../../../styles/mixins-font" as *;
+@use "../../../styles/tokens" as *;
+
+
+
+.storybook--sidebar-header-icon {
+    color: black;
+    width: 16px;
+    height: 16px;
+}

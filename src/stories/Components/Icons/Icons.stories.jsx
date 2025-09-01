@@ -55,7 +55,7 @@ export const Default = () => {
                         }}
                         onClick={() => handleCopy(name)}
                     >
-                        <Icon name={name} size={25} fill='white' fallback={<div style={{ width: 25, height: 25 }} />} />
+                        <Icon name={name} size={25} fill='none' fallback={<div style={{ width: 25, height: 25 }} />} />
                         <div style={{ fontSize: 14, marginTop: 4, fontFamily: 'sans-serif' }}>{name}</div>
                     </div>
                 ))}

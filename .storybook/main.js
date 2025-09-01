@@ -26,17 +26,21 @@ const config = {
     "@storybook/addon-a11y",
     "@storybook/addon-vitest"
   ],
+
   framework: {
     name: "@storybook/react-vite",
     options: {}
   },
-
 
   async viteFinal(config) {
     const svgr = (await import('vite-plugin-svgr')).default;
     config.plugins = config.plugins || [];
     config.plugins.push(svgr());
     return config;
+  },
+
+  core: {
+    disableWhatsNewNotifications: true
   }
 };
 

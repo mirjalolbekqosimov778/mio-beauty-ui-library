@@ -1,0 +1,41 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/type-primitives" as *;
+@use "../../../styles/mixins-font" as *;
+@use "../../../styles/tokens" as *;
+
+
+.storybook--sidebar-button {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    transition: $smooth ;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+    &.storybook--sidebar-button--default {
+        background-color: $colors-background-dark-value;
+        color: $white;
+    }
+
+    &.storybook--sidebar-button--focus {
+        background-color: $colors-background-primary-value;
+
+        .storybook--sidebar-button-icon {
+            color: $colors-texticons-primary-value;
+        }
+    }
+
+    &.storybook--sidebar-button--disabled {
+        background-color: $colors-background-disabled-value;
+        color: $colors-texticons-tertiary-value;
+        cursor: default;
+    }
+
+    .storybook--sidebar-button-icon {
+        width: 16px;
+        height: 16px;
+    }
+}

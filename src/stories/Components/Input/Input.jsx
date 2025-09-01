@@ -8,6 +8,7 @@ export const Input = ({
   label = 'Title',
   notice = 'Notice text',
   errorFilled = false,
+  errorText = 'Error text',
   leftIcon = true,
   type = 'text',
   ...props
@@ -117,13 +118,24 @@ export const Input = ({
           />
         )}
       </div>
-      {notice && (
+
+      {errorFilled && (
         <span
           className={`storybook-input-notice ${errorFilled ? 'storybook-input-notice--error' : ''}`}
+        >
+          {errorText}
+        </span>
+      )}
+
+      {notice && (
+        <span
+          className={`storybook-input-notice`}
         >
           {notice}
         </span>
       )}
+
+
     </form>
   );
 };
@@ -134,5 +146,6 @@ Input.propTypes = {
   label: PropTypes.string,
   notice: PropTypes.string,
   errorFilled: PropTypes.bool,
+  errorText: PropTypes.string,
   type: PropTypes.oneOf(['text', 'password', 'email', 'number', 'phone']),
 };

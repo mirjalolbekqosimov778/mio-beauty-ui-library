@@ -43,6 +43,20 @@ import SettingsOutlinedIcon from "./ic_settings_outlined.svg?react";
 import StatOutlinedIcon from "./ic_stat_outlined.svg?react";
 import UploadIcon from "./ic_upload.svg?react";
 import UsersIcon from "./ic_users.svg?react";
+
+import Admins from "./ic_admins.svg?react";
+import CollapsedHorizontal from "./ic_collapsed_horizontal.svg?react";
+import DidebarClose from './ic_didebar_close.svg?react';
+import DidebarOpen from './ic_didebar_open.svg?react';
+import GaleryVertical from './ic_galery_vertical.svg?react';
+import Mail from './ic_mail.svg?react';
+import Password from './ic_password.svg?react';
+import SupportLogo from './ic_support_logo.svg?react';
+import UserGroup from './ic_user_group.svg?react'
+
+
+
+
 // import XMarkIcon from "./ic_X-mark.svg?react";
 // import IndexJs from "./indexjs.js?react";
 // import ArrowDownCircleOutlinedIcon from "./ic_arrow_down_circle_outlined.svg?react";
@@ -50,54 +64,58 @@ import UsersIcon from "./ic_users.svg?react";
 // import ChatEllipsisIcon from "./ic_chat_ellipsis.svg?react";
 
 export const ImIcons = {
-    // indexjs: IndexJs,
-    // ic_X_mark: XMarkIcon,
-    // ic_chat_ellipsis: ChatEllipsisIcon,
-    // ic_arrow_down_circle_outlined: ArrowDownCircleOutlinedIcon,
-    // ic_slash: SlashIcon,
     ic_add_outlined: AddIcon,
+    ic_admins: Admins,
     ic_arrow_down: ArrowDownIcon,
     ic_arrow_left: ArrowLeftIcon,
     ic_arrow_top_right_square: ArrowTopRightSquareIcon,
     ic_bell_outlined: BellIcon,
     ic_burger: BurgerIcon,
-    ic_clip: ClipIcon,
-    ic_doc: DocIcon,
-    ic_eye_outlined: EyeOutlinedIcon,
-    ic_info_outlined: InfoOutlinedIcon,
-    ic_loading: LoadingIcon,
-    ic_map_pin_outlined: MapPinOutlinedIcon,
-    ic_microphone: MicrophoneIcon,
-    ic_phone_outlined: PhoneOutlinedIcon,
-    ic_search_outlined: SearchOutlinedIcon,
-    ic_swatch: SwatchIcon,
-    ic_user: UserIcon,
     ic_calendar_outlined: CalendarOutlinedIcon,
-    ic_check: CheckIcon,
-    ic_clock: ClockIcon,
-    ic_double_check: DoubleCheckIcon,
-    ic_eye_slash_outlined: EyeSlashOutlinedIcon,
-    ic_language: LanguageIcon,
-    ic_logout_outlined: LogoutOutlinedIcon,
-    ic_media: MediaIcon,
-    ic_more: MoreIcon,
-    ic_question_mark_circle_outlined: QuestionMarkCircleOutlinedIcon,
-    ic_send: SendIcon,
-    ic_square_outlined: SquareOutlinedIcon,
-    ic_trash_outlined: TrashOutlinedIcon,
-    ic_user_new: UserNewIcon,
     ic_chat: ChatIcon,
+    ic_check: CheckIcon,
     ic_circle_stop_outlined: CircleStopOutlinedIcon,
-    ic_copy_outlined: CopyOutlinedIcon,
+    ic_clip: ClipIcon,
+    ic_clock: ClockIcon,
+    ic_collapsed_horizontal: CollapsedHorizontal,
+    ic_copy_outlined: CopyOutlinedIcon, // C
+    ic_didebar_close: DidebarClose,
+    ic_didebar_open: DidebarOpen,
+    ic_doc: DocIcon,
+    ic_double_check: DoubleCheckIcon, // D
     ic_edit_outlined: EditOutlinedIcon,
-    ic_filter_outlined: FilterOutlinedIcon,
+    ic_eye_outlined: EyeOutlinedIcon,
+    ic_eye_slash_outlined: EyeSlashOutlinedIcon, // E
+    ic_filter_outlined: FilterOutlinedIcon, // F
+    ic_galery_vertical: GaleryVertical, // G
+    ic_info_outlined: InfoOutlinedIcon, // I
+    ic_language: LanguageIcon,
     ic_loader_outlined: LoaderOutlinedIcon,
+    ic_loading: LoadingIcon,
+    ic_logout_outlined: LogoutOutlinedIcon, // L
+    ic_mail: Mail,
     ic_map_outlined: MapOutlinedIcon,
+    ic_map_pin_outlined: MapPinOutlinedIcon,
+    ic_media: MediaIcon,
     ic_metrics: MetricsIcon,
-    ic_no_internet: NoInternetIcon,
-    ic_Retry: RetryIcon,
+    ic_microphone: MicrophoneIcon,
+    ic_more: MoreIcon, // M
+    ic_no_internet: NoInternetIcon, // N
+    ic_password: Password,
+    ic_phone_outlined: PhoneOutlinedIcon, // P
+    ic_question_mark_circle_outlined: QuestionMarkCircleOutlinedIcon, // Q
+    ic_Retry: RetryIcon, // R
+    ic_search_outlined: SearchOutlinedIcon,
+    ic_send: SendIcon,
     ic_settings_outlined: SettingsOutlinedIcon,
+    ic_square_outlined: SquareOutlinedIcon,
     ic_stat_outlined: StatOutlinedIcon,
+    ic_support_logo: SupportLogo,
+    ic_swatch: SwatchIcon, // S
+    ic_trash_outlined: TrashOutlinedIcon, // T
     ic_upload: UploadIcon,
-    ic_users: UsersIcon,
+    ic_user: UserIcon,
+    ic_user_group: UserGroup,
+    ic_user_new: UserNewIcon,
+    ic_users: UsersIcon, // U
 };

@@ -1,8 +1,7 @@
 import React from "react";
-import { ImIcons } from "../../assets/icons"; // qo‘lda yozilgan index.js
-import PropTypes from "prop-types";
+import { ImIcons } from "../../assets/icons";
 
-export const Icon = ({ name, size = 24, fill = "currentColor", ...props }) => {
+export const Icon = ({ name, size = 24, fill = "none", ...props }) => {
     const Component = ImIcons[name];
     if (!Component) return null;
 

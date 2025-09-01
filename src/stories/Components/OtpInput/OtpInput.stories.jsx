@@ -15,7 +15,7 @@ export default {
     tags: ["autodocs"],
 };
 
-export const Playground = {
+export const OtpInputPreview = {
     args: {
         length: 6,
     },
