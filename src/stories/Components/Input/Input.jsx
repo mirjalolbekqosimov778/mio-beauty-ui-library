@@ -111,7 +111,6 @@ export const Input = ({
         {type === "password" && (
           <Icon
             name={showPassword ? "ic_eye_outlined" : "ic_eye_slash_outlined"}
-            fill="white"
             className="storybook-input--icon"
             onClick={togglePassword}
             style={{ cursor: "pointer" }}
