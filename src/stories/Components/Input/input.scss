@@ -40,6 +40,9 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+.storybook-input-icon--disabled {
+    color: $colors-texticons-secondary-value !important;
+}
 
 .storybook-input-wrapper {
     position: relative;

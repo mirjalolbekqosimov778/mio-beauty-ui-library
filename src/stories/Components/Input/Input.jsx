@@ -80,7 +80,7 @@ export const Input = ({
       {label && <label className="storybook-input-label">{label}</label>}
       <div className={`storybook-input-wrapper ${leftIcon ? "with-left-icon" : ""}`}>
 
-        {leftIcon && <Icon name='ic_add_outlined' className="storybook-left-input-icon" />}
+        {leftIcon && <Icon name='ic_add_outlined' className={`storybook-left-input-icon ${disabled ? 'storybook-input-icon--disabled' : ''}`} />}
 
         <input
           type={
@@ -111,7 +111,7 @@ export const Input = ({
         {type === "password" && (
           <Icon
             name={showPassword ? "ic_eye_outlined" : "ic_eye_slash_outlined"}
-            className="storybook-input--icon"
+            className={`storybook-input--icon ${disabled ? 'storybook-input-icon--disabled' : ''}`}
             onClick={togglePassword}
             style={{ cursor: "pointer" }}
           />
